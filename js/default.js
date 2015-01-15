@@ -42,6 +42,8 @@
          compFac: _depthCompressionFactor,
          devicePixelRatio: 1
      });
+    renderer.shadowMapEnabled = true;
+    renderer.shadowMapSoft = true;
      renderer.Leia_setSize({
          width: windowWidth,
          height: windowHeight,
